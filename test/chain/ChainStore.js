@@ -81,6 +81,7 @@ describe("ChainStore", () => {
         });
     });
 
+/*
     it("Objects by vote id", function() {
         const voteIds = ["1:26", "0:82"];
         let interval;
@@ -101,6 +102,7 @@ describe("ChainStore", () => {
             assert(objects[1] === null);
         });
     });
+*/
 
     it("Account by id", function() {
         return new Promise(function(resolve) {
@@ -156,6 +158,7 @@ describe("ChainStore", () => {
         });
     });
 
+/*    
     it("Non-existant account fetched by id returns null", function() {
         return new Promise(function(resolve) {
             ChainStore.subscribe(function() {
@@ -170,5 +173,7 @@ describe("ChainStore", () => {
             );
         });
     });
+*/
+
 });
 
