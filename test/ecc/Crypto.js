@@ -136,7 +136,7 @@ describe("ECC", function() {
         });
 
         it("password aes_private", function() {
-            this.timeout(2500);
+            this.timeout(1000);
             var key_checksum = min_time_elapsed(function() {
                 return key.aes_checksum("password").checksum;
             });
