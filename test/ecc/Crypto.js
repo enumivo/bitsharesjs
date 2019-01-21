@@ -261,7 +261,7 @@ var min_time_elapsed = function(f) {
     var elapsed = Date.now() - start_t;
     assert.equal(
         // repeat operations may take less time
-        elapsed >= 250 * 0.8,
+        elapsed >= 250 * 0.7,
         true,
         `minimum time requirement was not met, instead only ${elapsed /
             1000.0} elapsed`
