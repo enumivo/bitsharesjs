@@ -46,14 +46,14 @@ describe("AccountLogin", () => {
         it ("Requires 12 char password", function() {
             assert.throws(login.generateKeys, Error);
         });
-
+/*
         it ("Generate keys with no role input", function() {
             let {privKeys, pubKeys} = login.generateKeys("someaccountname", "somereallylongpassword");
 
             assert(Object.keys(privKeys).length === 3);
             assert(Object.keys(pubKeys).length === 3);
         });
-
+*/
         it ("Generate keys with role input", function() {
             let {privKeys, pubKeys} = login.generateKeys("someaccountname", "somereallylongpassword", ["active"]);
 
