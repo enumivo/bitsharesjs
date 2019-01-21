@@ -134,9 +134,9 @@ describe("ECC", function() {
                 "Password is incorrect"
             );
         });
-/*
+
         it("password aes_private", function() {
-            this.timeout(2500);
+            this.timeout(25000);
             var key_checksum = min_time_elapsed(function() {
                 return key.aes_checksum("password").checksum;
             });
@@ -148,7 +148,7 @@ describe("ECC", function() {
             // DEBUG console.log('... password_aes',password_aes)
             assert(password_aes !== null);
         });
-*/
+
         it("throws on empty brainkey", function() {
             let string = "";
 
