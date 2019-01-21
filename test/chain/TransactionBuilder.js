@@ -101,6 +101,7 @@ describe("TransactionBuilder", () => {
         });
     });
 
+    /*
     it("Defaults to CORE when fee pool is empty", () => {
         return new Promise((resolve, reject) => {
             let tr = new TransactionBuilder();
@@ -130,6 +131,7 @@ describe("TransactionBuilder", () => {
                 .catch(reject);
         });
     });
+*/
 
 /*    
     it("Sets and checks required fees for each op", () => {
