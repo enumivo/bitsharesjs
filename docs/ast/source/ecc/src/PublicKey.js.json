@@ -735,10 +735,10 @@
             }
           },
           "extra": {
-            "rawValue": "bitsharesjs-ws",
-            "raw": "\"bitsharesjs-ws\""
+            "rawValue": "eidosjs-ws",
+            "raw": "\"eidosjs-ws\""
           },
-          "value": "bitsharesjs-ws"
+          "value": "eidosjs-ws"
         }
       },
       {
@@ -3336,7 +3336,7 @@
               "trailingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "* bts::blockchain::address (unique but not a full public key) ",
+                  "value": "* eon::blockchain::address (unique but not a full public key) ",
                   "start": 1435,
                   "end": 1501,
                   "loc": {
@@ -3695,7 +3695,7 @@
               "leadingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "* bts::blockchain::address (unique but not a full public key) ",
+                  "value": "* eon::blockchain::address (unique but not a full public key) ",
                   "start": 1435,
                   "end": 1501,
                   "loc": {
@@ -14541,7 +14541,7 @@
                 "trailingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "* bts::blockchain::address (unique but not a full public key) ",
+                    "value": "* eon::blockchain::address (unique but not a full public key) ",
                     "start": 1435,
                     "end": 1501,
                     "loc": {
@@ -14900,7 +14900,7 @@
                 "leadingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "* bts::blockchain::address (unique but not a full public key) ",
+                    "value": "* eon::blockchain::address (unique but not a full public key) ",
                     "start": 1435,
                     "end": 1501,
                     "loc": {
@@ -23578,7 +23578,7 @@
     },
     {
       "type": "CommentBlock",
-      "value": "* bts::blockchain::address (unique but not a full public key) ",
+      "value": "* eon::blockchain::address (unique but not a full public key) ",
       "start": 1435,
       "end": 1501,
       "loc": {
@@ -24981,7 +24981,7 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "bitsharesjs-ws",
+      "value": "eidosjs-ws",
       "start": 237,
       "end": 253,
       "loc": {
@@ -30308,7 +30308,7 @@
     },
     {
       "type": "CommentBlock",
-      "value": "* bts::blockchain::address (unique but not a full public key) ",
+      "value": "* eon::blockchain::address (unique but not a full public key) ",
       "start": 1435,
       "end": 1501,
       "loc": {

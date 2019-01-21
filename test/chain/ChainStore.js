@@ -1,5 +1,5 @@
 import assert from "assert";
-import {Apis, ChainConfig} from "bitsharesjs-ws";
+import {Apis, ChainConfig} from "eidosjs-ws";
 import {ChainStore} from "../../lib";
 // var objs = require("./testObjects.json");
 
@@ -8,9 +8,9 @@ var coreAsset;
 describe("ChainStore", () => {
     // Connect once for all tests
     before(function() {
-        /* use wss://bitshares.openledger.info/ws if no local node is available */
+        /* use wss://dex.eidos.one if no local node is available */
         return Apis.instance(
-            "wss://bitshares.openledger.info/ws",
+            "wss://dex.eidos.one",
             true
         ).init_promise.then(function(result) {
             coreAsset = result[0].network.core_asset;
@@ -174,10 +174,10 @@ describe("ChainStore", () => {
 
 // describe("ChainStore performance", function() {
 //     before(function() {
-//         /* use wss://bitshares.openledger.info/ws if no local node is available */
+//         /* use wss://dex.eidos.one if no local node is available */
 //         return new Promise(function(resolve) {
 //             return Apis.instance(
-//                 "wss://bitshares.openledger.info/ws",
+//                 "wss://dex.eidos.one",
 //                 true
 //             ).init_promise.then(function(result) {
 //                 coreAsset = result[0].network.core_asset;

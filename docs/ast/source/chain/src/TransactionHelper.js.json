@@ -504,10 +504,10 @@
             }
           },
           "extra": {
-            "rawValue": "bitsharesjs-ws",
-            "raw": "\"bitsharesjs-ws\""
+            "rawValue": "eidosjs-ws",
+            "raw": "\"eidosjs-ws\""
           },
-          "value": "bitsharesjs-ws"
+          "value": "eidosjs-ws"
         }
       },
       {
@@ -8607,7 +8607,7 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "bitsharesjs-ws",
+      "value": "eidosjs-ws",
       "start": 189,
       "end": 205,
       "loc": {

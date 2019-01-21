@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../../../">
-  <title data-ice="title">lib/ecc/src/KeyUtils.js | BitsharesJS Docs</title>
+  <title data-ice="title">lib/ecc/src/KeyUtils.js | EidosJS Docs</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
-<meta name="description" content="Pure JavaScript Bitshares library for node.js and browsers."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="BitsharesJS Docs"><meta property="twitter:description" content="Pure JavaScript Bitshares library for node.js and browsers."></head>
+<meta name="description" content="Pure JavaScript Eidos library for node.js and browsers."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="EidosJS Docs"><meta property="twitter:description" content="Pure JavaScript Eidos library for node.js and browsers."></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/bitshares/bitsharesjs"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/enumivo/eidosjs"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -209,7 +209,7 @@ import Aes from &quot;./aes&quot;;
 import {sha256, sha512} from &quot;./hash&quot;;
 // import dictionary from &apos;./dictionary_en&apos;;
 import secureRandom from &quot;secure-random&quot;;
-import {ChainConfig} from &quot;bitsharesjs-ws&quot;;
+import {ChainConfig} from &quot;eidosjs-ws&quot;;
 const Buffer = require(&quot;safe-buffer&quot;).Buffer;
 
 // hash for .25 second
@@ -414,7 +414,7 @@ const key = {
             Address.fromPublic(public_key, true, 0).toString(address_prefix), // btc_compressed
             Address.fromPublic(public_key, false, 56).toString(address_prefix), // pts_uncompressed
             Address.fromPublic(public_key, true, 56).toString(address_prefix), // pts_compressed
-            public_key.toAddressString(address_prefix) // bts_short, most recent format
+            public_key.toAddressString(address_prefix) // eon_short, most recent format
         ];
         return address_string;
     }

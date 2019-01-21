@@ -626,10 +626,10 @@
             }
           },
           "extra": {
-            "rawValue": "bitsharesjs-ws",
-            "raw": "\"bitsharesjs-ws\""
+            "rawValue": "eidosjs-ws",
+            "raw": "\"eidosjs-ws\""
           },
-          "value": "bitsharesjs-ws"
+          "value": "eidosjs-ws"
         }
       },
       {
@@ -13696,7 +13696,7 @@
                                   "trailingComments": [
                                     {
                                       "type": "CommentLine",
-                                      "value": " bts_short, most recent format",
+                                      "value": " eon_short, most recent format",
                                       "start": 7396,
                                       "end": 7428,
                                       "loc": {
@@ -26668,7 +26668,7 @@
                                     "trailingComments": [
                                       {
                                         "type": "CommentLine",
-                                        "value": " bts_short, most recent format",
+                                        "value": " eon_short, most recent format",
                                         "start": 7396,
                                         "end": 7428,
                                         "loc": {
@@ -27050,7 +27050,7 @@
     },
     {
       "type": "CommentLine",
-      "value": " bts_short, most recent format",
+      "value": " eon_short, most recent format",
       "start": 7396,
       "end": 7428,
       "loc": {
@@ -28125,7 +28125,7 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "bitsharesjs-ws",
+      "value": "eidosjs-ws",
       "start": 286,
       "end": 302,
       "loc": {
@@ -54199,7 +54199,7 @@
     },
     {
       "type": "CommentLine",
-      "value": " bts_short, most recent format",
+      "value": " eon_short, most recent format",
       "start": 7396,
       "end": 7428,
       "loc": {
