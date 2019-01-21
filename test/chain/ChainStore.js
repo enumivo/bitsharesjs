@@ -56,7 +56,7 @@ describe("ChainStore", () => {
             assert(ChainStore.getAsset(coreAsset) === undefined);
         });
     });
-
+/*
     it("Asset by id", function() {
         return new Promise(function(resolve) {
             ChainStore.subscribe(function() {
@@ -68,7 +68,7 @@ describe("ChainStore", () => {
             assert(ChainStore.getAsset("1.3.0") === undefined);
         });
     });
-
+*/
     it("Object by id", function() {
         return new Promise(function(resolve) {
             ChainStore.subscribe(function() {
