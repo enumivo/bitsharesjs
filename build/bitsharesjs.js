@@ -8,10 +8,10 @@ module.exports = {
     key: require("./ecc/src/KeyUtils"),
     TransactionBuilder: require("./chain/src/TransactionBuilder"),
     Login: require("./chain/src/AccountLogin"),
-    bitshares_ws: require("bitsharesjs-ws"),
+    bitshares_ws: require("eidosjs-ws"),
     aes: require("./ecc/src/aes")
 };
-},{"./chain/src/AccountLogin":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/chain/src/AccountLogin.js","./chain/src/TransactionBuilder":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/chain/src/TransactionBuilder.js","./ecc/src/KeyUtils":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/KeyUtils.js","./ecc/src/PrivateKey":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/PrivateKey.js","./ecc/src/PublicKey":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/PublicKey.js","./ecc/src/aes":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/aes.js","./ecc/src/signature":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/signature.js","bitsharesjs-ws":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/index.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/dist/chain/src/AccountLogin.js":[function(require,module,exports){
+},{"./chain/src/AccountLogin":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/chain/src/AccountLogin.js","./chain/src/TransactionBuilder":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/chain/src/TransactionBuilder.js","./ecc/src/KeyUtils":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/KeyUtils.js","./ecc/src/PrivateKey":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/PrivateKey.js","./ecc/src/PublicKey":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/PublicKey.js","./ecc/src/aes":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/aes.js","./ecc/src/signature":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/signature.js","eidosjs-ws":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/index.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/dist/chain/src/AccountLogin.js":[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -332,7 +332,7 @@ var _ecc = require("../../ecc");
 
 var _serializer = require("../../serializer");
 
-var _bitsharesjsWs = require("bitsharesjs-ws");
+var _bitsharesjsWs = require("eidosjs-ws");
 
 var _ChainTypes = require("./ChainTypes");
 
@@ -1126,7 +1126,7 @@ function timeStringToDate(time_string) {
 
 exports.default = TransactionBuilder;
 module.exports = exports["default"];
-},{"../../ecc":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/index.js","../../serializer":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/serializer/index.js","./ChainTypes":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/chain/src/ChainTypes.js","assert":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/assert/assert.js","bitsharesjs-ws":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/index.js","safe-buffer":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/safe-buffer/index.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/dist/chain/src/state.js":[function(require,module,exports){
+},{"../../ecc":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/index.js","../../serializer":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/serializer/index.js","./ChainTypes":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/chain/src/ChainTypes.js","assert":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/assert/assert.js","eidosjs-ws":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/index.js","safe-buffer":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/safe-buffer/index.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/dist/chain/src/state.js":[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -1235,7 +1235,7 @@ var _secureRandom = require("secure-random");
 
 var _secureRandom2 = _interopRequireDefault(_secureRandom);
 
-var _bitsharesjsWs = require("bitsharesjs-ws");
+var _bitsharesjsWs = require("eidosjs-ws");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1429,7 +1429,7 @@ var key = {
 
 exports.default = key;
 module.exports = exports["default"];
-},{"./PrivateKey":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/PrivateKey.js","./PublicKey":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/PublicKey.js","./address":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/address.js","./aes":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/aes.js","./hash":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/hash.js","bitsharesjs-ws":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/index.js","safe-buffer":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/safe-buffer/index.js","secure-random":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/secure-random/lib/secure-random.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/PrivateKey.js":[function(require,module,exports){
+},{"./PrivateKey":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/PrivateKey.js","./PublicKey":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/PublicKey.js","./address":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/address.js","./aes":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/aes.js","./hash":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/hash.js","eidosjs-ws":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/index.js","safe-buffer":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/safe-buffer/index.js","secure-random":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/secure-random/lib/secure-random.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/PrivateKey.js":[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -1650,7 +1650,7 @@ var _bs = require("bs58");
 
 var _hash = require("./hash");
 
-var _bitsharesjsWs = require("bitsharesjs-ws");
+var _bitsharesjsWs = require("eidosjs-ws");
 
 var _assert = require("assert");
 
@@ -1853,7 +1853,7 @@ var PublicKey = function () {
 
 exports.default = PublicKey;
 module.exports = exports["default"];
-},{"./hash":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/hash.js","assert":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/assert/assert.js","bigi":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bigi/lib/index.js","bitsharesjs-ws":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/index.js","bs58":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bs58/index.js","deep-equal":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/deep-equal/index.js","ecurve":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/ecurve/lib/index.js","safe-buffer":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/safe-buffer/index.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/address.js":[function(require,module,exports){
+},{"./hash":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/hash.js","assert":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/assert/assert.js","bigi":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bigi/lib/index.js","eidosjs-ws":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/index.js","bs58":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bs58/index.js","deep-equal":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/deep-equal/index.js","ecurve":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/ecurve/lib/index.js","safe-buffer":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/safe-buffer/index.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/address.js":[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -1862,7 +1862,7 @@ var _assert = require("assert");
 
 var _assert2 = _interopRequireDefault(_assert);
 
-var _bitsharesjsWs = require("bitsharesjs-ws");
+var _bitsharesjsWs = require("eidosjs-ws");
 
 var _hash2 = require("./hash");
 
@@ -1947,7 +1947,7 @@ var Address = function () {
 
 exports.default = Address;
 module.exports = exports["default"];
-},{"./hash":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/hash.js","assert":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/assert/assert.js","bitsharesjs-ws":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/index.js","bs58":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bs58/index.js","deep-equal":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/deep-equal/index.js","safe-buffer":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/safe-buffer/index.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/aes.js":[function(require,module,exports){
+},{"./hash":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/hash.js","assert":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/assert/assert.js","eidosjs-ws":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/index.js","bs58":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bs58/index.js","deep-equal":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/deep-equal/index.js","safe-buffer":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/safe-buffer/index.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/src/aes.js":[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -4583,7 +4583,7 @@ var _ObjectId2 = _interopRequireDefault(_ObjectId);
 
 var _ecc = require("../../ecc");
 
-var _bitsharesjsWs = require("bitsharesjs-ws");
+var _bitsharesjsWs = require("eidosjs-ws");
 
 var _bytebuffer = require("bytebuffer");
 
@@ -5560,7 +5560,7 @@ exports.default = Types;
 module.exports = exports["default"];
 }).call(this,require('_process'))
 
-},{"../../chain/src/ChainTypes":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/chain/src/ChainTypes.js","../../chain/src/ObjectId":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/chain/src/ObjectId.js","../../ecc":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/index.js","./FastParser":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/serializer/src/FastParser.js","./SerializerValidation":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/serializer/src/SerializerValidation.js","_process":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/process/browser.js","bitsharesjs-ws":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/index.js","bytebuffer":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bytebuffer/dist/bytebuffer.js","safe-buffer":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/safe-buffer/index.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/assert/assert.js":[function(require,module,exports){
+},{"../../chain/src/ChainTypes":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/chain/src/ChainTypes.js","../../chain/src/ObjectId":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/chain/src/ObjectId.js","../../ecc":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/ecc/index.js","./FastParser":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/serializer/src/FastParser.js","./SerializerValidation":"/home/sigve/Dev/Bitshares/bitsharesjs/dist/serializer/src/SerializerValidation.js","_process":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/process/browser.js","eidosjs-ws":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/index.js","bytebuffer":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bytebuffer/dist/bytebuffer.js","safe-buffer":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/safe-buffer/index.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/assert/assert.js":[function(require,module,exports){
 (function (global){
 'use strict';
 
@@ -8005,7 +8005,7 @@ module.exports={
   "version": "1.4.2"
 }
 
-},{}],"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/index.js":[function(require,module,exports){
+},{}],"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/index.js":[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -8028,7 +8028,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.Apis = _ApiInstances2.default;
 exports.ChainConfig = _ChainConfig2.default;
 exports.Manager = _ConnectionManager2.default;
-},{"./src/ApiInstances":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/src/ApiInstances.js","./src/ChainConfig":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/src/ChainConfig.js","./src/ConnectionManager":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/src/ConnectionManager.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/src/ApiInstances.js":[function(require,module,exports){
+},{"./src/ApiInstances":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/src/ApiInstances.js","./src/ChainConfig":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/src/ChainConfig.js","./src/ConnectionManager":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/src/ConnectionManager.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/src/ApiInstances.js":[function(require,module,exports){
 (function (global){
 "use strict";
 
@@ -8264,7 +8264,7 @@ var ApisInstance = function () {
 module.exports = exports["default"];
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"./ChainConfig":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/src/ChainConfig.js","./ChainWebSocket":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/src/ChainWebSocket.js","./GrapheneApi":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/src/GrapheneApi.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/src/ChainConfig.js":[function(require,module,exports){
+},{"./ChainConfig":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/src/ChainConfig.js","./ChainWebSocket":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/src/ChainWebSocket.js","./GrapheneApi":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/src/GrapheneApi.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/src/ChainConfig.js":[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -8364,7 +8364,7 @@ exports.default = _this;
 module.exports = exports["default"];
 }).call(this,require('_process'))
 
-},{"_process":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/process/browser.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/src/ChainWebSocket.js":[function(require,module,exports){
+},{"_process":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/process/browser.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/src/ChainWebSocket.js":[function(require,module,exports){
 (function (process){
 "use strict";
 
@@ -8628,7 +8628,7 @@ exports.default = ChainWebSocket;
 module.exports = exports["default"];
 }).call(this,require('_process'))
 
-},{"_process":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/process/browser.js","ws":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/browser-resolve/empty.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/src/ConnectionManager.js":[function(require,module,exports){
+},{"_process":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/process/browser.js","ws":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/browser-resolve/empty.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/src/ConnectionManager.js":[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
@@ -8813,7 +8813,7 @@ var Manager = function () {
 
 exports.default = Manager;
 module.exports = exports["default"];
-},{"./ApiInstances":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/src/ApiInstances.js","./ChainWebSocket":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/src/ChainWebSocket.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/bitsharesjs-ws/cjs/src/GrapheneApi.js":[function(require,module,exports){
+},{"./ApiInstances":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/src/ApiInstances.js","./ChainWebSocket":"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/src/ChainWebSocket.js"}],"/home/sigve/Dev/Bitshares/bitsharesjs/node_modules/eidosjs-ws/cjs/src/GrapheneApi.js":[function(require,module,exports){
 "use strict";
 
 exports.__esModule = true;
