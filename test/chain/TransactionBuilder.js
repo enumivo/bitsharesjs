@@ -7,7 +7,7 @@ describe("TransactionBuilder", () => {
     before(function() {
         /* use wss://bitshares.openledger.info/ws if no local node is available */
         return new Promise(function(resolve, reject) {
-            Apis.instance("wss://bitshares.openledger.info/ws", true)
+            Apis.instance("ws://dex.eidos.one:11011", true)
                 .init_promise.then(resolve)
                 .catch(reject);
         });
