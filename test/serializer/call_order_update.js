@@ -103,7 +103,7 @@ function equalTrans(trans) {
     };
 }
 
-// curl - d '{"id":1,"method":"call","params":[0,"get_transaction_hex",[{}]]}' https://btsapi.magicw.net/ws
+// curl - d '{"id":1,"method":"call","params":[0,"get_transaction_hex",[{}]]}' 
 describe("call_order_update serialization", function() {
     describe("same as backend", function() {
         before(function() {

@@ -3336,7 +3336,7 @@
               "trailingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "* bts::blockchain::address (unique but not a full public key) ",
+                  "value": "* eon::blockchain::address (unique but not a full public key) ",
                   "start": 1435,
                   "end": 1501,
                   "loc": {
@@ -3695,7 +3695,7 @@
               "leadingComments": [
                 {
                   "type": "CommentBlock",
-                  "value": "* bts::blockchain::address (unique but not a full public key) ",
+                  "value": "* eon::blockchain::address (unique but not a full public key) ",
                   "start": 1435,
                   "end": 1501,
                   "loc": {
@@ -14541,7 +14541,7 @@
                 "trailingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "* bts::blockchain::address (unique but not a full public key) ",
+                    "value": "* eon::blockchain::address (unique but not a full public key) ",
                     "start": 1435,
                     "end": 1501,
                     "loc": {
@@ -14900,7 +14900,7 @@
                 "leadingComments": [
                   {
                     "type": "CommentBlock",
-                    "value": "* bts::blockchain::address (unique but not a full public key) ",
+                    "value": "* eon::blockchain::address (unique but not a full public key) ",
                     "start": 1435,
                     "end": 1501,
                     "loc": {
@@ -23578,7 +23578,7 @@
     },
     {
       "type": "CommentBlock",
-      "value": "* bts::blockchain::address (unique but not a full public key) ",
+      "value": "* eon::blockchain::address (unique but not a full public key) ",
       "start": 1435,
       "end": 1501,
       "loc": {
@@ -30308,7 +30308,7 @@
     },
     {
       "type": "CommentBlock",
-      "value": "* bts::blockchain::address (unique but not a full public key) ",
+      "value": "* eon::blockchain::address (unique but not a full public key) ",
       "start": 1435,
       "end": 1501,
       "loc": {

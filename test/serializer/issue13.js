@@ -36,11 +36,11 @@ describe("issue13", function() {
                             ],
                             key_auths: [
                                 [
-                                    "BTS8DZinV1rFkdgs2sMMhUrk6wAyq1fTB8eLKQzcYihkgrjiv3tLn",
+                                    "EON8DZinV1rFkdgs2sMMhUrk6wAyq1fTB8eLKQzcYihkgrjiv3tLn",
                                     1
                                 ],
                                 [
-                                    "BTS6agpGeRkc1zHD9MTbHaK9CKR1Pt8aU4v2GTxF6tRtf3ZC3TnU6",
+                                    "EON6agpGeRkc1zHD9MTbHaK9CKR1Pt8aU4v2GTxF6tRtf3ZC3TnU6",
                                     1
                                 ]
                             ],
@@ -54,7 +54,7 @@ describe("issue13", function() {
                             ],
                             key_auths: [
                                 [
-                                    "BTS517Q7o3TgYnsaduUwLRUekPdHzu1cgx9LtskoRJghJ8yeo19eR",
+                                    "EON517Q7o3TgYnsaduUwLRUekPdHzu1cgx9LtskoRJghJ8yeo19eR",
                                     1
                                 ]
                             ],

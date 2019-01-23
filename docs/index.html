@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl">
-  <title data-ice="title">Home | BitsharesJS Docs</title>
+  <title data-ice="title">Home | EidosJS Docs</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
-<meta name="description" content="Pure JavaScript Bitshares library for node.js and browsers."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="BitsharesJS Docs"><meta property="twitter:description" content="Pure JavaScript Bitshares library for node.js and browsers."></head>
+<meta name="description" content="Pure JavaScript Eidos library for node.js and browsers."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="EidosJS Docs"><meta property="twitter:description" content="Pure JavaScript Eidos library for node.js and browsers."></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
@@ -201,7 +201,7 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="eidosjs--eidosjs-">BitsharesJS (eidosjs)</h1><p>Pure JavaScript Bitshares library for node.js and browsers. Can be used to construct, sign and broadcast transactions in JavaScript, and to easily obtain data from the blockchain via public apis.</p>
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="eidosjs--eidosjs-">EidosJS (eidosjs)</h1><p>Pure JavaScript Eidos library for node.js and browsers. Can be used to construct, sign and broadcast transactions in JavaScript, and to easily obtain data from the blockchain via public apis.</p>
 <p>Most of this code was written by <a href="https://github.com/jcalfee">jcalfee</a>, my work was mostly just repackaging to a discrete npm package.</p>
 <p><a href="https://www.npmjs.com/package/eidosjs"><img src="https://img.shields.io/npm/v/eidosjs.svg?style=flat-square" alt="npm version"></a>
 <a href="https://www.npmjs.com/package/eidosjs"><img src="https://img.shields.io/npm/dm/eidosjs.svg?style=flat-square" alt="npm downloads"></a></p>
@@ -227,7 +227,7 @@ signTransaction(tr)</code>
 <pre><code><code class="source-code prettyprint">import {Apis} from &quot;eidosjs-ws&quot;;
 var {ChainStore} = require(&quot;eidosjs&quot;);
 
-Apis.instance(&quot;wss://bitshares.openledger.info/ws&quot;, true).init_promise.then((res) =&gt; {
+Apis.instance(&quot;wss://dex.eidos.one&quot;, true).init_promise.then((res) =&gt; {
     console.log(&quot;connected to:&quot;, res[0].network);
     ChainStore.init().then(() =&gt; {
         ChainStore.subscribe(updateState);

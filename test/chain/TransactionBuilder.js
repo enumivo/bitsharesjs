@@ -31,8 +31,8 @@ describe("TransactionBuilder", () => {
                 to: "1.2.2",
                 amount: {amount: 50000, asset_id: "1.3.0"},
                 memo: {
-                    from: "BTS1111111111111111111111111111111114T1Anm",
-                    to: "BTS1111111111111111111111111111111114T1Anm",
+                    from: "EON1111111111111111111111111111111114T1Anm",
+                    to: "EON1111111111111111111111111111111114T1Anm",
                     nonce: 0,
                     message: ""
                 }
@@ -52,8 +52,8 @@ describe("TransactionBuilder", () => {
                 to: "1.2.2",
                 amount: {amount: 50000, asset_id: "1.3.0"},
                 memo: {
-                    from: "BTS1111111111111111111111111111111114T1Anm",
-                    to: "BTS1111111111111111111111111111111114T1Anm",
+                    from: "EON1111111111111111111111111111111114T1Anm",
+                    to: "EON1111111111111111111111111111111114T1Anm",
                     nonce: 0,
                     message: ""
                 }
@@ -82,8 +82,8 @@ describe("TransactionBuilder", () => {
                 to: "1.2.2",
                 amount: {amount: 50000, asset_id: "1.3.0"},
                 memo: {
-                    from: "BTS1111111111111111111111111111111114T1Anm",
-                    to: "BTS1111111111111111111111111111111114T1Anm",
+                    from: "EON1111111111111111111111111111111114T1Anm",
+                    to: "EON1111111111111111111111111111111114T1Anm",
                     nonce: 0,
                     message: ""
                 }
@@ -112,8 +112,8 @@ describe("TransactionBuilder", () => {
                 to: "1.2.2",
                 amount: {amount: 50000, asset_id: "1.3.0"},
                 memo: {
-                    from: "BTS1111111111111111111111111111111114T1Anm",
-                    to: "BTS1111111111111111111111111111111114T1Anm",
+                    from: "EON1111111111111111111111111111111114T1Anm",
+                    to: "EON1111111111111111111111111111111114T1Anm",
                     nonce: 0,
                     message: ""
                 }
@@ -142,8 +142,8 @@ describe("TransactionBuilder", () => {
                 to: "1.2.2",
                 amount: {amount: 50000, asset_id: "1.3.0"},
                 memo: {
-                    from: "BTS1111111111111111111111111111111114T1Anm",
-                    to: "BTS1111111111111111111111111111111114T1Anm",
+                    from: "EON1111111111111111111111111111111114T1Anm",
+                    to: "EON1111111111111111111111111111111114T1Anm",
                     nonce: 0,
                     message: ""
                 }
@@ -158,8 +158,8 @@ describe("TransactionBuilder", () => {
                 to: "1.2.2",
                 amount: {amount: 50000, asset_id: "1.3.0"},
                 memo: {
-                    from: "BTS1111111111111111111111111111111114T1Anm",
-                    to: "BTS1111111111111111111111111111111114T1Anm",
+                    from: "EON1111111111111111111111111111111114T1Anm",
+                    to: "EON1111111111111111111111111111111114T1Anm",
                     nonce: 0,
                     message: ""
                 }
@@ -174,8 +174,8 @@ describe("TransactionBuilder", () => {
                 to: "1.2.2",
                 amount: {amount: 50000, asset_id: "1.3.0"},
                 memo: {
-                    from: "BTS1111111111111111111111111111111114T1Anm",
-                    to: "BTS1111111111111111111111111111111114T1Anm",
+                    from: "EON1111111111111111111111111111111114T1Anm",
+                    to: "EON1111111111111111111111111111111114T1Anm",
                     nonce: 0,
                     message: ""
                 }
@@ -190,8 +190,8 @@ describe("TransactionBuilder", () => {
                 to: "1.2.2",
                 amount: {amount: 50000, asset_id: "1.3.0"},
                 memo: {
-                    from: "BTS1111111111111111111111111111111114T1Anm",
-                    to: "BTS1111111111111111111111111111111114T1Anm",
+                    from: "EON1111111111111111111111111111111114T1Anm",
+                    to: "EON1111111111111111111111111111111114T1Anm",
                     nonce: 0,
                     message: ""
                 }
@@ -239,8 +239,8 @@ describe("TransactionBuilder", () => {
                     to: "1.2.802379",
                     amount: {amount: 100000, asset_id: "1.3.0"},
                     memo: {
-                        from: "BTS1111111111111111111111111111111114T1Anm",
-                        to: "BTS1111111111111111111111111111111114T1Anm",
+                        from: "EON1111111111111111111111111111111114T1Anm",
+                        to: "EON1111111111111111111111111111111114T1Anm",
                         nonce: 0,
                         message: ""
                     }
@@ -291,8 +291,8 @@ describe("TransactionBuilder", () => {
                         to: "1.2.2",
                         amount: {amount: 50000, asset_id: "1.3.0"},
                         memo: {
-                            from: "BTS1111111111111111111111111111111114T1Anm",
-                            to: "BTS1111111111111111111111111111111114T1Anm",
+                            from: "EON1111111111111111111111111111111114T1Anm",
+                            to: "EON1111111111111111111111111111111114T1Anm",
                             nonce: 0,
                             message: ""
                         }
@@ -352,8 +352,8 @@ describe("TransactionBuilder", () => {
     //                 to: "1.2.2",
     //                 amount: {amount: 50000, asset_id: "1.3.0"},
     //                 memo: {
-    //                     from: "BTS1111111111111111111111111111111114T1Anm",
-    //                     to: "BTS1111111111111111111111111111111114T1Anm",
+    //                     from: "EON1111111111111111111111111111111114T1Anm",
+    //                     to: "EON1111111111111111111111111111111114T1Anm",
     //                     nonce: 0,
     //                     message: ""
     //                 }
