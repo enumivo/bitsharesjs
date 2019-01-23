@@ -8,9 +8,8 @@ var coreAsset;
 describe("ChainStore", () => {
     // Connect once for all tests
     before(function() {
-        /* use wss://bitshares.openledger.info/ws if no local node is available */
         return Apis.instance(
-            "ws://dex.eidos.one:11011",
+            "wss://dex.eidos.one",
             true
         ).init_promise.then(function(result) {
             coreAsset = result[0].network.core_asset;
@@ -172,46 +171,3 @@ describe("ChainStore", () => {
     });
 });
 
-// describe("ChainStore performance", function() {
-//     before(function() {
-//         /* use wss://bitshares.openledger.info/ws if no local node is available */
-//         return new Promise(function(resolve) {
-//             return Apis.instance(
-//                 "wss://bitshares.openledger.info/ws",
-//                 true
-//             ).init_promise.then(function(result) {
-//                 coreAsset = result[0].network.core_asset;
-//                 ChainStore.init(false);
-//                 resolve();
-//             });
-//         });
-//     });
-//
-//     after(function() {
-//         return new Promise(function(resolve) {
-//             Apis.close().then(resolve);
-//         });
-//     });
-//
-//     it("Update object", function() {
-//         /* Original time was ~150-170ms for 50 iterations */
-//         for (var i = 0; i < 50; i++) {
-//             objs.forEach(function(obj) {
-//                 ChainStore._updateObject(obj);
-//             });
-//         }
-//     });
-//
-//     it("Get asset", function() {
-//         let assets = ["1.3.0", "1.3.121"];
-//         /* Original time was ~150-170ms for 50 iterations */
-//         for (var i = 0; i < 50; i++) {
-//             assets.forEach(function(asset) {
-//                 let a = ChainStore.getAsset(asset);
-//                 if (asset === "1.3.121" && a) {
-//                     assert(!!a.get("bitasset"));
-//                 }
-//             });
-//         }
-//     });
-// });

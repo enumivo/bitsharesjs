@@ -5,7 +5,6 @@ import {TransactionBuilder, ops} from "../../lib";
 describe("TransactionBuilder", () => {
     // Connect once for all tests
     before(function() {
-        /* use wss://bitshares.openledger.info/ws if no local node is available */
         return new Promise(function(resolve, reject) {
             Apis.instance("ws://dex.eidos.one:11011", true)
                 .init_promise.then(resolve)
