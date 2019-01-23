@@ -10,7 +10,7 @@ Apis.instance("wss://node.testnet.bitshares.eu", true)
 
     ChainStore.init().then(() => {
 
-        let fromAccount = "bitsharesjs";
+        let fromAccount = "eidosjs";
         let memoSender = fromAccount;
         let memo = "Testing transfer from node.js";
 

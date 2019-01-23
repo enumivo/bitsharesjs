@@ -1,5 +1,5 @@
 {
-    "name": "bitsharesjs",
+    "name": "eidosjs",
     "version": "1.8.3",
     "description": "Pure JavaScript Bitshares library for node.js and browsers.",
     "browser": {
@@ -20,8 +20,8 @@
         "postbuild": "npm run browserify && npm run build-es",
         "build:watch": "babel lib -d dist --watch",
         "prebrowserify": "mkdirp build",
-        "browserify": "cross-env NODE_ENV=production browserify --full-paths dist/browser.js --standalone bitshares_js -o build/bitsharesjs.js -d",
-        "postbrowserify": "cross-env NODE_ENV=production uglifyjs --compress --mangle --sequences --drop_console --output build/bitsharesjs.min.js -- build/bitsharesjs.js",
+        "browserify": "cross-env NODE_ENV=production browserify --full-paths dist/browser.js --standalone bitshares_js -o build/eidosjs.js -d",
+        "postbrowserify": "cross-env NODE_ENV=production uglifyjs --compress --mangle --sequences --drop_console --output build/eidosjs.min.js -- build/eidosjs.js",
         "precommit": "pretty-quick --staged && npm run test",
         "prepublish": "npm run build && npm run test",
         "doc": "esdoc -c esdoc.json",
@@ -33,7 +33,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/bitshares/bitsharesjs.git"
+        "url": "git+https://github.com/bitshares/eidosjs.git"
     },
     "author": "Sigve Kvalsvik <bitsharesblocks@gmail.com> (https://github.com/svk31)",
     "contributors": [
@@ -43,7 +43,7 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/bitshares/bitsharesjs/issues"
+        "url": "https://github.com/bitshares/eidosjs/issues"
     },
     "engines": {
         "node": ">= 6.0.0"
