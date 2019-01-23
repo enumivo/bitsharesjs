@@ -7,7 +7,7 @@ import th from "./test_helper";
 
 import {is} from "immutable";
 import {PublicKey, PrivateKey, types} from "../../lib";
-import {ChainConfig} from "eidosjs-ws";
+import {ChainConfig} from "bitsharesjs-ws";
 
 describe("types", function() {
     it("vote_id", function() {

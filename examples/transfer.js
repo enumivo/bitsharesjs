@@ -1,16 +1,16 @@
-import {Apis} from "eidosjs-ws";
+import {Apis} from "bitsharesjs-ws";
 import {ChainStore, FetchChain, PrivateKey, TransactionHelper, Aes, TransactionBuilder} from "../lib";
 
 var privKey = "5KBuq5WmHvgePmB7w3onYsqLM8ESomM2Ae7SigYuuwg8MDHW7NN";
 let pKey = PrivateKey.fromWif(privKey);
 
-Apis.instance("wss://dex.eidos.one", true)
+Apis.instance("wss://node.testnet.bitshares.eu", true)
 .init_promise.then((res) => {
     console.log("connected to:", res[0].network_name, "network");
 
     ChainStore.init().then(() => {
 
-        let fromAccount = "eidosjs";
+        let fromAccount = "bitsharesjs";
         let memoSender = fromAccount;
         let memo = "Testing transfer from node.js";
 

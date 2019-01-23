@@ -1,5 +1,5 @@
 import assert from "assert";
-import {Apis, ChainConfig} from "eidosjs-ws";
+import {Apis, ChainConfig} from "bitsharesjs-ws";
 import {ChainStore} from "../../lib";
 // var objs = require("./testObjects.json");
 
@@ -8,9 +8,9 @@ var coreAsset;
 describe("ChainStore", () => {
     // Connect once for all tests
     before(function() {
-        /* use wss://dex.eidos.one if no local node is available */
+        /* use wss://bitshares.openledger.info/ws if no local node is available */
         return Apis.instance(
-            "wss://dex.eidos.one",
+            "wss://bitshares.openledger.info/ws",
             true
         ).init_promise.then(function(result) {
             coreAsset = result[0].network.core_asset;
@@ -56,7 +56,7 @@ describe("ChainStore", () => {
             assert(ChainStore.getAsset(coreAsset) === undefined);
         });
     });
-/*
+
     it("Asset by id", function() {
         return new Promise(function(resolve) {
             ChainStore.subscribe(function() {
@@ -68,7 +68,7 @@ describe("ChainStore", () => {
             assert(ChainStore.getAsset("1.3.0") === undefined);
         });
     });
-*/
+
     it("Object by id", function() {
         return new Promise(function(resolve) {
             ChainStore.subscribe(function() {
@@ -81,7 +81,6 @@ describe("ChainStore", () => {
         });
     });
 
-/*
     it("Objects by vote id", function() {
         const voteIds = ["1:26", "0:82"];
         let interval;
@@ -102,7 +101,6 @@ describe("ChainStore", () => {
             assert(objects[1] === null);
         });
     });
-*/
 
     it("Account by id", function() {
         return new Promise(function(resolve) {
@@ -158,7 +156,6 @@ describe("ChainStore", () => {
         });
     });
 
-/*    
     it("Non-existant account fetched by id returns null", function() {
         return new Promise(function(resolve) {
             ChainStore.subscribe(function() {
@@ -173,7 +170,48 @@ describe("ChainStore", () => {
             );
         });
     });
-*/
-
 });
 
+// describe("ChainStore performance", function() {
+//     before(function() {
+//         /* use wss://bitshares.openledger.info/ws if no local node is available */
+//         return new Promise(function(resolve) {
+//             return Apis.instance(
+//                 "wss://bitshares.openledger.info/ws",
+//                 true
+//             ).init_promise.then(function(result) {
+//                 coreAsset = result[0].network.core_asset;
+//                 ChainStore.init(false);
+//                 resolve();
+//             });
+//         });
+//     });
+//
+//     after(function() {
+//         return new Promise(function(resolve) {
+//             Apis.close().then(resolve);
+//         });
+//     });
+//
+//     it("Update object", function() {
+//         /* Original time was ~150-170ms for 50 iterations */
+//         for (var i = 0; i < 50; i++) {
+//             objs.forEach(function(obj) {
+//                 ChainStore._updateObject(obj);
+//             });
+//         }
+//     });
+//
+//     it("Get asset", function() {
+//         let assets = ["1.3.0", "1.3.121"];
+//         /* Original time was ~150-170ms for 50 iterations */
+//         for (var i = 0; i < 50; i++) {
+//             assets.forEach(function(asset) {
+//                 let a = ChainStore.getAsset(asset);
+//                 if (asset === "1.3.121" && a) {
+//                     assert(!!a.get("bitasset"));
+//                 }
+//             });
+//         }
+//     });
+// });

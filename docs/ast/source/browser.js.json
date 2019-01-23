@@ -686,9 +686,9 @@
                       "line": 8,
                       "column": 16
                     },
-                    "identifierName": "eidos_ws"
+                    "identifierName": "bitshares_ws"
                   },
-                  "name": "eidos_ws"
+                  "name": "bitshares_ws"
                 },
                 "value": {
                   "type": "CallExpression",
@@ -737,10 +737,10 @@
                         }
                       },
                       "extra": {
-                        "rawValue": "eidosjs-ws",
-                        "raw": "\"eidosjs-ws\""
+                        "rawValue": "bitsharesjs-ws",
+                        "raw": "\"bitsharesjs-ws\""
                       },
-                      "value": "eidosjs-ws"
+                      "value": "bitsharesjs-ws"
                     }
                   ]
                 }
@@ -1982,7 +1982,7 @@
         "postfix": false,
         "binop": null
       },
-      "value": "eidos_ws",
+      "value": "bitshares_ws",
       "start": 321,
       "end": 333,
       "loc": {
@@ -2086,7 +2086,7 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "eidosjs-ws",
+      "value": "bitsharesjs-ws",
       "start": 343,
       "end": 359,
       "loc": {

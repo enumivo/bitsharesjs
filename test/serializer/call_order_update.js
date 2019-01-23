@@ -1,5 +1,5 @@
 import {ops} from "../../lib/";
-import {Apis} from "eidosjs-ws";
+import {Apis} from "bitsharesjs-ws";
 
 import assert from "assert";
 var trans1 = {
@@ -103,11 +103,12 @@ function equalTrans(trans) {
     };
 }
 
+// curl - d '{"id":1,"method":"call","params":[0,"get_transaction_hex",[{}]]}' https://btsapi.magicw.net/ws
 describe("call_order_update serialization", function() {
     describe("same as backend", function() {
         before(function() {
             return Apis.instance(
-                "wss://dex.eidos.one",
+                "wss://eu.nodes.bitshares.ws",
                 true
             ).init_promise;
         });

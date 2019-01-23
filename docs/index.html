@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl">
-  <title data-ice="title">Home | EidosJS Docs</title>
+  <title data-ice="title">Home | BitsharesJS Docs</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
-<meta name="description" content="Pure JavaScript Eidos library for node.js and browsers."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="EidosJS Docs"><meta property="twitter:description" content="Pure JavaScript Eidos library for node.js and browsers."></head>
+<meta name="description" content="Pure JavaScript Bitshares library for node.js and browsers."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="BitsharesJS Docs"><meta property="twitter:description" content="Pure JavaScript Bitshares library for node.js and browsers."></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
@@ -24,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-<a style="position:relative; top:3px;" href="https://github.com/enumivo/eidosjs"><img width="20px" src="./image/github.png"></a></header>
+<a style="position:relative; top:3px;" href="https://github.com/bitshares/bitsharesjs"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -201,12 +201,12 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="eidosjs--eidosjs-">EidosJS (eidosjs)</h1><p>Pure JavaScript Eidos library for node.js and browsers. Can be used to construct, sign and broadcast transactions in JavaScript, and to easily obtain data from the blockchain via public apis.</p>
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="bitsharesjs--bitsharesjs-">BitsharesJS (bitsharesjs)</h1><p>Pure JavaScript Bitshares library for node.js and browsers. Can be used to construct, sign and broadcast transactions in JavaScript, and to easily obtain data from the blockchain via public apis.</p>
 <p>Most of this code was written by <a href="https://github.com/jcalfee">jcalfee</a>, my work was mostly just repackaging to a discrete npm package.</p>
-<p><a href="https://www.npmjs.com/package/eidosjs"><img src="https://img.shields.io/npm/v/eidosjs.svg?style=flat-square" alt="npm version"></a>
-<a href="https://www.npmjs.com/package/eidosjs"><img src="https://img.shields.io/npm/dm/eidosjs.svg?style=flat-square" alt="npm downloads"></a></p>
+<p><a href="https://www.npmjs.com/package/bitsharesjs"><img src="https://img.shields.io/npm/v/bitsharesjs.svg?style=flat-square" alt="npm version"></a>
+<a href="https://www.npmjs.com/package/bitsharesjs"><img src="https://img.shields.io/npm/dm/bitsharesjs.svg?style=flat-square" alt="npm downloads"></a></p>
 <h2 id="setup">Setup</h2><p>This library can be obtained through npm:</p>
-<pre><code><code class="source-code prettyprint">npm install eidosjs</code>
+<pre><code><code class="source-code prettyprint">npm install bitsharesjs</code>
 </code></pre><h2 id="usage">Usage</h2><p>Three sub-libraries are included: <code>ECC</code>, <code>Chain</code> and <code>Serializer</code>. Generally only the <code>ECC</code> and <code>Chain</code> libraries need to be used directly.</p>
 <h3 id="chain">Chain</h3><p>This library provides utility functions to handle blockchain state as well as a login class that can be used for simple login functionality using a specific key seed.</p>
 <h4 id="login">Login</h4><p>The login class uses the following format for keys:</p>
@@ -218,16 +218,16 @@ signTransaction(tr)</code>
 </code></pre><p>The auths object should contain the auth arrays from the account object. An example is this:</p>
 <pre><code><code class="source-code prettyprint">{
     active: [
-        [&quot;EON5Abm5dCdy3hJ1C5ckXkqUH2Me7dXqi9Y7yjn9ACaiSJ9h8r8mL&quot;, 1]
+        [&quot;GPH5Abm5dCdy3hJ1C5ckXkqUH2Me7dXqi9Y7yjn9ACaiSJ9h8r8mL&quot;, 1]
     ]
 }</code>
 </code></pre><p>If checkKeys is successful, you can use signTransaction to sign a TransactionBuilder transaction using the private keys for that account.</p>
 <h4 id="state-container">State container</h4><p>The Chain library contains a complete state container called the ChainStore. The ChainStore will automatically configure the <code>set_subscribe_callback</code> and handle any incoming state changes appropriately. It uses Immutable.js for storing the state, so all objects are return as immutable objects. It has its own <code>subscribe</code> method that can be used to register a callback that will be called whenever a state change happens.</p>
 <p>The ChainStore has several useful methods to retrieve, among other things, objects, assets and accounts using either object ids or asset/account names. These methods are synchronous and will return <code>undefined</code> to indicate fetching in progress, and <code>null</code> to indicate that the object does not exist.</p>
-<pre><code><code class="source-code prettyprint">import {Apis} from &quot;eidosjs-ws&quot;;
-var {ChainStore} = require(&quot;eidosjs&quot;);
+<pre><code><code class="source-code prettyprint">import {Apis} from &quot;bitsharesjs-ws&quot;;
+var {ChainStore} = require(&quot;bitsharesjs&quot;);
 
-Apis.instance(&quot;wss://dex.eidos.one&quot;, true).init_promise.then((res) =&gt; {
+Apis.instance(&quot;wss://bitshares.openledger.info/ws&quot;, true).init_promise.then((res) =&gt; {
     console.log(&quot;connected to:&quot;, res[0].network);
     ChainStore.init().then(() =&gt; {
         ChainStore.subscribe(updateState);
@@ -242,7 +242,7 @@ function updateState(object) {
 </code>
 </code></pre><h3 id="ecc">ECC</h3><p>The ECC library contains all the crypto functions for private and public keys as well as transaction creation/signing.</p>
 <h4 id="private-keys">Private keys</h4><p>As a quick example, here&apos;s how to generate a new private key from a seed (a brainkey for example):</p>
-<pre><code><code class="source-code prettyprint">var {PrivateKey, key} = require(&quot;eidosjs&quot;);
+<pre><code><code class="source-code prettyprint">var {PrivateKey, key} = require(&quot;bitsharesjs&quot;);
 
 let seed = &quot;THIS IS A TERRIBLE BRAINKEY SEED WORD SEQUENCE&quot;;
 let pkey = PrivateKey.fromSeed( key.normalize_brainKey(seed) );

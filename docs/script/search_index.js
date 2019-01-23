@@ -1,1010 +1,1010 @@
 window.esdocSearchIndex = [
   [
-    "eidosjs/lib/chain/src/accountlogin.js~accountlogin",
+    "bitsharesjs/lib/chain/src/accountlogin.js~accountlogin",
     "class/lib/chain/src/AccountLogin.js~AccountLogin.html",
-    "<span>AccountLogin</span> <span class=\"search-result-import-path\">eidosjs/lib/chain/src/AccountLogin.js</span>",
+    "<span>AccountLogin</span> <span class=\"search-result-import-path\">bitsharesjs/lib/chain/src/AccountLogin.js</span>",
     "class"
   ],
   [
-    "eidosjs/lib/ecc/src/address.js~address",
+    "bitsharesjs/lib/ecc/src/address.js~address",
     "class/lib/ecc/src/address.js~Address.html",
-    "<span>Address</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/address.js</span>",
+    "<span>Address</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/address.js</span>",
     "class"
   ],
   [
-    "eidosjs/lib/ecc/src/aes.js~aes",
+    "bitsharesjs/lib/ecc/src/aes.js~aes",
     "class/lib/ecc/src/aes.js~Aes.html",
-    "<span>Aes</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/aes.js</span>",
+    "<span>Aes</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/aes.js</span>",
     "class"
   ],
   [
-    "eidosjs/lib/chain/src/chainstore.js~chainstore",
+    "bitsharesjs/lib/chain/src/chainstore.js~chainstore",
     "class/lib/chain/src/ChainStore.js~ChainStore.html",
-    "<span>ChainStore</span> <span class=\"search-result-import-path\">eidosjs/lib/chain/src/ChainStore.js</span>",
+    "<span>ChainStore</span> <span class=\"search-result-import-path\">bitsharesjs/lib/chain/src/ChainStore.js</span>",
     "class"
   ],
   [
-    "eidosjs/lib/chain/src/chaintypes.js~chaintypes",
+    "bitsharesjs/lib/chain/src/chaintypes.js~chaintypes",
     "variable/index.html#static-variable-ChainTypes",
-    "<span>ChainTypes</span> <span class=\"search-result-import-path\">eidosjs/lib/chain/src/ChainTypes.js</span>",
+    "<span>ChainTypes</span> <span class=\"search-result-import-path\">bitsharesjs/lib/chain/src/ChainTypes.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/ecc/src/ecsignature.js~ecsignature",
+    "bitsharesjs/lib/ecc/src/ecsignature.js~ecsignature",
     "function/index.html#static-function-ECSignature",
-    "<span>ECSignature</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/ecsignature.js</span>",
+    "<span>ECSignature</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/ecsignature.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/serializer/src/error_with_cause.js~errorwithcause",
+    "bitsharesjs/lib/serializer/src/error_with_cause.js~errorwithcause",
     "class/lib/serializer/src/error_with_cause.js~ErrorWithCause.html",
-    "<span>ErrorWithCause</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/error_with_cause.js</span>",
+    "<span>ErrorWithCause</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/error_with_cause.js</span>",
     "class"
   ],
   [
-    "eidosjs/lib/serializer/src/fastparser.js~fastparser",
+    "bitsharesjs/lib/serializer/src/fastparser.js~fastparser",
     "class/lib/serializer/src/FastParser.js~FastParser.html",
-    "<span>FastParser</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/FastParser.js</span>",
+    "<span>FastParser</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/FastParser.js</span>",
     "class"
   ],
   [
-    "eidosjs/lib/ecc/src/hash.js~hmacsha256",
+    "bitsharesjs/lib/ecc/src/hash.js~hmacsha256",
     "function/index.html#static-function-HmacSHA256",
-    "<span>HmacSHA256</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/hash.js</span>",
+    "<span>HmacSHA256</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/hash.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/chain/src/numberutils.js~numberutils",
+    "bitsharesjs/lib/chain/src/numberutils.js~numberutils",
     "variable/index.html#static-variable-NumberUtils",
-    "<span>NumberUtils</span> <span class=\"search-result-import-path\">eidosjs/lib/chain/src/NumberUtils.js</span>",
+    "<span>NumberUtils</span> <span class=\"search-result-import-path\">bitsharesjs/lib/chain/src/NumberUtils.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/chain/src/objectid.js~objectid",
+    "bitsharesjs/lib/chain/src/objectid.js~objectid",
     "class/lib/chain/src/ObjectId.js~ObjectId.html",
-    "<span>ObjectId</span> <span class=\"search-result-import-path\">eidosjs/lib/chain/src/ObjectId.js</span>",
+    "<span>ObjectId</span> <span class=\"search-result-import-path\">bitsharesjs/lib/chain/src/ObjectId.js</span>",
     "class"
   ],
   [
-    "eidosjs/lib/ecc/src/privatekey.js~privatekey",
+    "bitsharesjs/lib/ecc/src/privatekey.js~privatekey",
     "class/lib/ecc/src/PrivateKey.js~PrivateKey.html",
-    "<span>PrivateKey</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/PrivateKey.js</span>",
+    "<span>PrivateKey</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/PrivateKey.js</span>",
     "class"
   ],
   [
-    "eidosjs/lib/ecc/src/publickey.js~publickey",
+    "bitsharesjs/lib/ecc/src/publickey.js~publickey",
     "class/lib/ecc/src/PublicKey.js~PublicKey.html",
-    "<span>PublicKey</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/PublicKey.js</span>",
+    "<span>PublicKey</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/PublicKey.js</span>",
     "class"
   ],
   [
-    "eidosjs/lib/serializer/src/serializer.js~serializer",
+    "bitsharesjs/lib/serializer/src/serializer.js~serializer",
     "class/lib/serializer/src/serializer.js~Serializer.html",
-    "<span>Serializer</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/serializer.js</span>",
+    "<span>Serializer</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/serializer.js</span>",
     "class"
   ],
   [
-    "eidosjs/lib/ecc/src/signature.js~signature",
+    "bitsharesjs/lib/ecc/src/signature.js~signature",
     "class/lib/ecc/src/signature.js~Signature.html",
-    "<span>Signature</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/signature.js</span>",
+    "<span>Signature</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/signature.js</span>",
     "class"
   ],
   [
-    "eidosjs/lib/chain/src/transactionbuilder.js~transactionbuilder",
+    "bitsharesjs/lib/chain/src/transactionbuilder.js~transactionbuilder",
     "class/lib/chain/src/TransactionBuilder.js~TransactionBuilder.html",
-    "<span>TransactionBuilder</span> <span class=\"search-result-import-path\">eidosjs/lib/chain/src/TransactionBuilder.js</span>",
+    "<span>TransactionBuilder</span> <span class=\"search-result-import-path\">bitsharesjs/lib/chain/src/TransactionBuilder.js</span>",
     "class"
   ],
   [
-    "eidosjs/lib/serializer/src/types.js~types",
+    "bitsharesjs/lib/serializer/src/types.js~types",
     "variable/index.html#static-variable-Types",
-    "<span>Types</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/types.js</span>",
+    "<span>Types</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/types.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/serializervalidation.js~_my",
+    "bitsharesjs/lib/serializer/src/serializervalidation.js~_my",
     "variable/index.html#static-variable-_my",
-    "<span>_my</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/SerializerValidation.js</span>",
+    "<span>_my</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/SerializerValidation.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/chain/src/accountlogin.js~accountlogin",
+    "bitsharesjs/lib/chain/src/accountlogin.js~accountlogin",
     "variable/index.html#static-variable-accountLogin",
-    "<span>accountLogin</span> <span class=\"search-result-import-path\">eidosjs/lib/chain/src/AccountLogin.js</span>",
+    "<span>accountLogin</span> <span class=\"search-result-import-path\">bitsharesjs/lib/chain/src/AccountLogin.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~account_create",
+    "bitsharesjs/lib/serializer/src/operations.js~account_create",
     "variable/index.html#static-variable-account_create",
-    "<span>account_create</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>account_create</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~account_create_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~account_create_operation_fee_parameters",
     "variable/index.html#static-variable-account_create_operation_fee_parameters",
-    "<span>account_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>account_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~account_name_eq_lit_predicate",
+    "bitsharesjs/lib/serializer/src/operations.js~account_name_eq_lit_predicate",
     "variable/index.html#static-variable-account_name_eq_lit_predicate",
-    "<span>account_name_eq_lit_predicate</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>account_name_eq_lit_predicate</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~account_options",
+    "bitsharesjs/lib/serializer/src/operations.js~account_options",
     "variable/index.html#static-variable-account_options",
-    "<span>account_options</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>account_options</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~account_transfer",
+    "bitsharesjs/lib/serializer/src/operations.js~account_transfer",
     "variable/index.html#static-variable-account_transfer",
-    "<span>account_transfer</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>account_transfer</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~account_transfer_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~account_transfer_operation_fee_parameters",
     "variable/index.html#static-variable-account_transfer_operation_fee_parameters",
-    "<span>account_transfer_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>account_transfer_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~account_update",
+    "bitsharesjs/lib/serializer/src/operations.js~account_update",
     "variable/index.html#static-variable-account_update",
-    "<span>account_update</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>account_update</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~account_update_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~account_update_operation_fee_parameters",
     "variable/index.html#static-variable-account_update_operation_fee_parameters",
-    "<span>account_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>account_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~account_upgrade",
+    "bitsharesjs/lib/serializer/src/operations.js~account_upgrade",
     "variable/index.html#static-variable-account_upgrade",
-    "<span>account_upgrade</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>account_upgrade</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~account_upgrade_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~account_upgrade_operation_fee_parameters",
     "variable/index.html#static-variable-account_upgrade_operation_fee_parameters",
-    "<span>account_upgrade_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>account_upgrade_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~account_whitelist",
+    "bitsharesjs/lib/serializer/src/operations.js~account_whitelist",
     "variable/index.html#static-variable-account_whitelist",
-    "<span>account_whitelist</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>account_whitelist</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~account_whitelist_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~account_whitelist_operation_fee_parameters",
     "variable/index.html#static-variable-account_whitelist_operation_fee_parameters",
-    "<span>account_whitelist_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>account_whitelist_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~assert",
+    "bitsharesjs/lib/serializer/src/operations.js~assert",
     "variable/index.html#static-variable-assert",
-    "<span>assert</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>assert</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~assert_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~assert_operation_fee_parameters",
     "variable/index.html#static-variable-assert_operation_fee_parameters",
-    "<span>assert_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>assert_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset",
+    "bitsharesjs/lib/serializer/src/operations.js~asset",
     "variable/index.html#static-variable-asset",
-    "<span>asset</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_claim_fees",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_claim_fees",
     "variable/index.html#static-variable-asset_claim_fees",
-    "<span>asset_claim_fees</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_claim_fees</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_claim_fees_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_claim_fees_operation_fee_parameters",
     "variable/index.html#static-variable-asset_claim_fees_operation_fee_parameters",
-    "<span>asset_claim_fees_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_claim_fees_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_claim_pool",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_claim_pool",
     "variable/index.html#static-variable-asset_claim_pool",
-    "<span>asset_claim_pool</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_claim_pool</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_claim_pool_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_claim_pool_operation_fee_parameters",
     "variable/index.html#static-variable-asset_claim_pool_operation_fee_parameters",
-    "<span>asset_claim_pool_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_claim_pool_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_create",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_create",
     "variable/index.html#static-variable-asset_create",
-    "<span>asset_create</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_create</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_create_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_create_operation_fee_parameters",
     "variable/index.html#static-variable-asset_create_operation_fee_parameters",
-    "<span>asset_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_fund_fee_pool",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_fund_fee_pool",
     "variable/index.html#static-variable-asset_fund_fee_pool",
-    "<span>asset_fund_fee_pool</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_fund_fee_pool</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_fund_fee_pool_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_fund_fee_pool_operation_fee_parameters",
     "variable/index.html#static-variable-asset_fund_fee_pool_operation_fee_parameters",
-    "<span>asset_fund_fee_pool_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_fund_fee_pool_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_global_settle",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_global_settle",
     "variable/index.html#static-variable-asset_global_settle",
-    "<span>asset_global_settle</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_global_settle</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_global_settle_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_global_settle_operation_fee_parameters",
     "variable/index.html#static-variable-asset_global_settle_operation_fee_parameters",
-    "<span>asset_global_settle_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_global_settle_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_issue",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_issue",
     "variable/index.html#static-variable-asset_issue",
-    "<span>asset_issue</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_issue</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_issue_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_issue_operation_fee_parameters",
     "variable/index.html#static-variable-asset_issue_operation_fee_parameters",
-    "<span>asset_issue_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_issue_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_options",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_options",
     "variable/index.html#static-variable-asset_options",
-    "<span>asset_options</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_options</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_publish_feed",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_publish_feed",
     "variable/index.html#static-variable-asset_publish_feed",
-    "<span>asset_publish_feed</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_publish_feed</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_publish_feed_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_publish_feed_operation_fee_parameters",
     "variable/index.html#static-variable-asset_publish_feed_operation_fee_parameters",
-    "<span>asset_publish_feed_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_publish_feed_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_reserve",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_reserve",
     "variable/index.html#static-variable-asset_reserve",
-    "<span>asset_reserve</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_reserve</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_reserve_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_reserve_operation_fee_parameters",
     "variable/index.html#static-variable-asset_reserve_operation_fee_parameters",
-    "<span>asset_reserve_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_reserve_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_settle",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_settle",
     "variable/index.html#static-variable-asset_settle",
-    "<span>asset_settle</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_settle</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_settle_cancel",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_settle_cancel",
     "variable/index.html#static-variable-asset_settle_cancel",
-    "<span>asset_settle_cancel</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_settle_cancel</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_settle_cancel_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_settle_cancel_operation_fee_parameters",
     "variable/index.html#static-variable-asset_settle_cancel_operation_fee_parameters",
-    "<span>asset_settle_cancel_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_settle_cancel_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_settle_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_settle_operation_fee_parameters",
     "variable/index.html#static-variable-asset_settle_operation_fee_parameters",
-    "<span>asset_settle_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_settle_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_symbol_eq_lit_predicate",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_symbol_eq_lit_predicate",
     "variable/index.html#static-variable-asset_symbol_eq_lit_predicate",
-    "<span>asset_symbol_eq_lit_predicate</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_symbol_eq_lit_predicate</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_update",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_update",
     "variable/index.html#static-variable-asset_update",
-    "<span>asset_update</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_update</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_update_bitasset",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_update_bitasset",
     "variable/index.html#static-variable-asset_update_bitasset",
-    "<span>asset_update_bitasset</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_update_bitasset</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_update_bitasset_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_update_bitasset_operation_fee_parameters",
     "variable/index.html#static-variable-asset_update_bitasset_operation_fee_parameters",
-    "<span>asset_update_bitasset_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_update_bitasset_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_update_feed_producers",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_update_feed_producers",
     "variable/index.html#static-variable-asset_update_feed_producers",
-    "<span>asset_update_feed_producers</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_update_feed_producers</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_update_feed_producers_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_update_feed_producers_operation_fee_parameters",
     "variable/index.html#static-variable-asset_update_feed_producers_operation_fee_parameters",
-    "<span>asset_update_feed_producers_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_update_feed_producers_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_update_issuer",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_update_issuer",
     "variable/index.html#static-variable-asset_update_issuer",
-    "<span>asset_update_issuer</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_update_issuer</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_update_issuer_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_update_issuer_operation_fee_parameters",
     "variable/index.html#static-variable-asset_update_issuer_operation_fee_parameters",
-    "<span>asset_update_issuer_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_update_issuer_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~asset_update_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~asset_update_operation_fee_parameters",
     "variable/index.html#static-variable-asset_update_operation_fee_parameters",
-    "<span>asset_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>asset_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~authority",
+    "bitsharesjs/lib/serializer/src/operations.js~authority",
     "variable/index.html#static-variable-authority",
-    "<span>authority</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>authority</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~balance_claim",
+    "bitsharesjs/lib/serializer/src/operations.js~balance_claim",
     "variable/index.html#static-variable-balance_claim",
-    "<span>balance_claim</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>balance_claim</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~balance_claim_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~balance_claim_operation_fee_parameters",
     "variable/index.html#static-variable-balance_claim_operation_fee_parameters",
-    "<span>balance_claim_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>balance_claim_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~bid_collateral",
+    "bitsharesjs/lib/serializer/src/operations.js~bid_collateral",
     "variable/index.html#static-variable-bid_collateral",
-    "<span>bid_collateral</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>bid_collateral</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~bid_collateral_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~bid_collateral_operation_fee_parameters",
     "variable/index.html#static-variable-bid_collateral_operation_fee_parameters",
-    "<span>bid_collateral_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>bid_collateral_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~bitasset_options",
+    "bitsharesjs/lib/serializer/src/operations.js~bitasset_options",
     "variable/index.html#static-variable-bitasset_options",
-    "<span>bitasset_options</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>bitasset_options</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~blind_input",
+    "bitsharesjs/lib/serializer/src/operations.js~blind_input",
     "variable/index.html#static-variable-blind_input",
-    "<span>blind_input</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>blind_input</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~blind_output",
+    "bitsharesjs/lib/serializer/src/operations.js~blind_output",
     "variable/index.html#static-variable-blind_output",
-    "<span>blind_output</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>blind_output</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~blind_transfer",
+    "bitsharesjs/lib/serializer/src/operations.js~blind_transfer",
     "variable/index.html#static-variable-blind_transfer",
-    "<span>blind_transfer</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>blind_transfer</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~blind_transfer_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~blind_transfer_operation_fee_parameters",
     "variable/index.html#static-variable-blind_transfer_operation_fee_parameters",
-    "<span>blind_transfer_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>blind_transfer_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~block_header",
+    "bitsharesjs/lib/serializer/src/operations.js~block_header",
     "variable/index.html#static-variable-block_header",
-    "<span>block_header</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>block_header</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~block_id_predicate",
+    "bitsharesjs/lib/serializer/src/operations.js~block_id_predicate",
     "variable/index.html#static-variable-block_id_predicate",
-    "<span>block_id_predicate</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>block_id_predicate</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~burn_worker_initializer",
+    "bitsharesjs/lib/serializer/src/operations.js~burn_worker_initializer",
     "variable/index.html#static-variable-burn_worker_initializer",
-    "<span>burn_worker_initializer</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>burn_worker_initializer</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/ecc/src/ecdsa.js~calcpubkeyrecoveryparam",
+    "bitsharesjs/lib/ecc/src/ecdsa.js~calcpubkeyrecoveryparam",
     "function/index.html#static-function-calcPubKeyRecoveryParam",
-    "<span>calcPubKeyRecoveryParam</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/ecdsa.js</span>",
+    "<span>calcPubKeyRecoveryParam</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/ecdsa.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~call_order_update",
+    "bitsharesjs/lib/serializer/src/operations.js~call_order_update",
     "variable/index.html#static-variable-call_order_update",
-    "<span>call_order_update</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>call_order_update</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~call_order_update_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~call_order_update_operation_fee_parameters",
     "variable/index.html#static-variable-call_order_update_operation_fee_parameters",
-    "<span>call_order_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>call_order_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~cdd_vesting_policy_initializer",
+    "bitsharesjs/lib/serializer/src/operations.js~cdd_vesting_policy_initializer",
     "variable/index.html#static-variable-cdd_vesting_policy_initializer",
-    "<span>cdd_vesting_policy_initializer</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>cdd_vesting_policy_initializer</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/chain/src/chainvalidation.js~chainvalidation",
+    "bitsharesjs/lib/chain/src/chainvalidation.js~chainvalidation",
     "variable/index.html#static-variable-chainValidation",
-    "<span>chainValidation</span> <span class=\"search-result-import-path\">eidosjs/lib/chain/src/ChainValidation.js</span>",
+    "<span>chainValidation</span> <span class=\"search-result-import-path\">bitsharesjs/lib/chain/src/ChainValidation.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~chain_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~chain_parameters",
     "variable/index.html#static-variable-chain_parameters",
-    "<span>chain_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>chain_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/chain/src/chainstore.js~chain_store",
+    "bitsharesjs/lib/chain/src/chainstore.js~chain_store",
     "variable/index.html#static-variable-chain_store",
-    "<span>chain_store</span> <span class=\"search-result-import-path\">eidosjs/lib/chain/src/ChainStore.js</span>",
+    "<span>chain_store</span> <span class=\"search-result-import-path\">bitsharesjs/lib/chain/src/ChainStore.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~committee_member_create",
+    "bitsharesjs/lib/serializer/src/operations.js~committee_member_create",
     "variable/index.html#static-variable-committee_member_create",
-    "<span>committee_member_create</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>committee_member_create</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~committee_member_create_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~committee_member_create_operation_fee_parameters",
     "variable/index.html#static-variable-committee_member_create_operation_fee_parameters",
-    "<span>committee_member_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>committee_member_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~committee_member_update",
+    "bitsharesjs/lib/serializer/src/operations.js~committee_member_update",
     "variable/index.html#static-variable-committee_member_update",
-    "<span>committee_member_update</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>committee_member_update</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~committee_member_update_global_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~committee_member_update_global_parameters",
     "variable/index.html#static-variable-committee_member_update_global_parameters",
-    "<span>committee_member_update_global_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>committee_member_update_global_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~committee_member_update_global_parameters_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~committee_member_update_global_parameters_operation_fee_parameters",
     "variable/index.html#static-variable-committee_member_update_global_parameters_operation_fee_parameters",
-    "<span>committee_member_update_global_parameters_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>committee_member_update_global_parameters_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~committee_member_update_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~committee_member_update_operation_fee_parameters",
     "variable/index.html#static-variable-committee_member_update_operation_fee_parameters",
-    "<span>committee_member_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>committee_member_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/convert.js~convert",
+    "bitsharesjs/lib/serializer/src/convert.js~convert",
     "function/index.html#static-function-convert",
-    "<span>convert</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/convert.js</span>",
+    "<span>convert</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/convert.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~custom",
+    "bitsharesjs/lib/serializer/src/operations.js~custom",
     "variable/index.html#static-variable-custom",
-    "<span>custom</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>custom</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~custom_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~custom_operation_fee_parameters",
     "variable/index.html#static-variable-custom_operation_fee_parameters",
-    "<span>custom_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>custom_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/ecc/src/ecdsa.js~deterministicgeneratek",
+    "bitsharesjs/lib/ecc/src/ecdsa.js~deterministicgeneratek",
     "function/index.html#static-function-deterministicGenerateK",
-    "<span>deterministicGenerateK</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/ecdsa.js</span>",
+    "<span>deterministicGenerateK</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/ecdsa.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/chain/src/emitterinstance.js~emitter",
+    "bitsharesjs/lib/chain/src/emitterinstance.js~emitter",
     "function/index.html#static-function-emitter",
-    "<span>emitter</span> <span class=\"search-result-import-path\">eidosjs/lib/chain/src/EmitterInstance.js</span>",
+    "<span>emitter</span> <span class=\"search-result-import-path\">bitsharesjs/lib/chain/src/EmitterInstance.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/ecc/src/enforce_types.js~enforce",
+    "bitsharesjs/lib/ecc/src/enforce_types.js~enforce",
     "function/index.html#static-function-enforce",
-    "<span>enforce</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/enforce_types.js</span>",
+    "<span>enforce</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/enforce_types.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~execute_bid",
+    "bitsharesjs/lib/serializer/src/operations.js~execute_bid",
     "variable/index.html#static-variable-execute_bid",
-    "<span>execute_bid</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>execute_bid</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~execute_bid_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~execute_bid_operation_fee_parameters",
     "variable/index.html#static-variable-execute_bid_operation_fee_parameters",
-    "<span>execute_bid_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>execute_bid_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~fba_distribute",
+    "bitsharesjs/lib/serializer/src/operations.js~fba_distribute",
     "variable/index.html#static-variable-fba_distribute",
-    "<span>fba_distribute</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>fba_distribute</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~fba_distribute_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~fba_distribute_operation_fee_parameters",
     "variable/index.html#static-variable-fba_distribute_operation_fee_parameters",
-    "<span>fba_distribute_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>fba_distribute_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~fee_schedule",
+    "bitsharesjs/lib/serializer/src/operations.js~fee_schedule",
     "variable/index.html#static-variable-fee_schedule",
-    "<span>fee_schedule</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>fee_schedule</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~fill_order",
+    "bitsharesjs/lib/serializer/src/operations.js~fill_order",
     "variable/index.html#static-variable-fill_order",
-    "<span>fill_order</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>fill_order</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~fill_order_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~fill_order_operation_fee_parameters",
     "variable/index.html#static-variable-fill_order_operation_fee_parameters",
-    "<span>fill_order_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>fill_order_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/chain/src/state.js~get",
+    "bitsharesjs/lib/chain/src/state.js~get",
     "function/index.html#static-function-get",
-    "<span>get</span> <span class=\"search-result-import-path\">eidosjs/lib/chain/src/state.js</span>",
+    "<span>get</span> <span class=\"search-result-import-path\">bitsharesjs/lib/chain/src/state.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/chain/src/transactionhelper.js~helper",
+    "bitsharesjs/lib/chain/src/transactionhelper.js~helper",
     "variable/index.html#static-variable-helper",
-    "<span>helper</span> <span class=\"search-result-import-path\">eidosjs/lib/chain/src/TransactionHelper.js</span>",
+    "<span>helper</span> <span class=\"search-result-import-path\">bitsharesjs/lib/chain/src/TransactionHelper.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/ecc/src/keyutils.js~key",
+    "bitsharesjs/lib/ecc/src/keyutils.js~key",
     "variable/index.html#static-variable-key",
-    "<span>key</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/KeyUtils.js</span>",
+    "<span>key</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/KeyUtils.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~limit_order_cancel",
+    "bitsharesjs/lib/serializer/src/operations.js~limit_order_cancel",
     "variable/index.html#static-variable-limit_order_cancel",
-    "<span>limit_order_cancel</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>limit_order_cancel</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~limit_order_cancel_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~limit_order_cancel_operation_fee_parameters",
     "variable/index.html#static-variable-limit_order_cancel_operation_fee_parameters",
-    "<span>limit_order_cancel_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>limit_order_cancel_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~limit_order_create",
+    "bitsharesjs/lib/serializer/src/operations.js~limit_order_create",
     "variable/index.html#static-variable-limit_order_create",
-    "<span>limit_order_create</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>limit_order_create</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~limit_order_create_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~limit_order_create_operation_fee_parameters",
     "variable/index.html#static-variable-limit_order_create_operation_fee_parameters",
-    "<span>limit_order_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>limit_order_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~linear_vesting_policy_initializer",
+    "bitsharesjs/lib/serializer/src/operations.js~linear_vesting_policy_initializer",
     "variable/index.html#static-variable-linear_vesting_policy_initializer",
-    "<span>linear_vesting_policy_initializer</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>linear_vesting_policy_initializer</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~memo_data",
+    "bitsharesjs/lib/serializer/src/operations.js~memo_data",
     "variable/index.html#static-variable-memo_data",
-    "<span>memo_data</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>memo_data</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/ecc/src/brainkey.js~normalize",
+    "bitsharesjs/lib/ecc/src/brainkey.js~normalize",
     "function/index.html#static-function-normalize",
-    "<span>normalize</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/BrainKey.js</span>",
+    "<span>normalize</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/BrainKey.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~op_wrapper",
+    "bitsharesjs/lib/serializer/src/operations.js~op_wrapper",
     "variable/index.html#static-variable-op_wrapper",
-    "<span>op_wrapper</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>op_wrapper</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~operation",
+    "bitsharesjs/lib/serializer/src/operations.js~operation",
     "variable/index.html#static-variable-operation",
-    "<span>operation</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>operation</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~override_transfer",
+    "bitsharesjs/lib/serializer/src/operations.js~override_transfer",
     "variable/index.html#static-variable-override_transfer",
-    "<span>override_transfer</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>override_transfer</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~override_transfer_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~override_transfer_operation_fee_parameters",
     "variable/index.html#static-variable-override_transfer_operation_fee_parameters",
-    "<span>override_transfer_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>override_transfer_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~price",
+    "bitsharesjs/lib/serializer/src/operations.js~price",
     "variable/index.html#static-variable-price",
-    "<span>price</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>price</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~price_feed",
+    "bitsharesjs/lib/serializer/src/operations.js~price_feed",
     "variable/index.html#static-variable-price_feed",
-    "<span>price_feed</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>price_feed</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~processed_transaction",
+    "bitsharesjs/lib/serializer/src/operations.js~processed_transaction",
     "variable/index.html#static-variable-processed_transaction",
-    "<span>processed_transaction</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>processed_transaction</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~proposal_create",
+    "bitsharesjs/lib/serializer/src/operations.js~proposal_create",
     "variable/index.html#static-variable-proposal_create",
-    "<span>proposal_create</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>proposal_create</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~proposal_create_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~proposal_create_operation_fee_parameters",
     "variable/index.html#static-variable-proposal_create_operation_fee_parameters",
-    "<span>proposal_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>proposal_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~proposal_delete",
+    "bitsharesjs/lib/serializer/src/operations.js~proposal_delete",
     "variable/index.html#static-variable-proposal_delete",
-    "<span>proposal_delete</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>proposal_delete</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~proposal_delete_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~proposal_delete_operation_fee_parameters",
     "variable/index.html#static-variable-proposal_delete_operation_fee_parameters",
-    "<span>proposal_delete_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>proposal_delete_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~proposal_update",
+    "bitsharesjs/lib/serializer/src/operations.js~proposal_update",
     "variable/index.html#static-variable-proposal_update",
-    "<span>proposal_update</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>proposal_update</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~proposal_update_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~proposal_update_operation_fee_parameters",
     "variable/index.html#static-variable-proposal_update_operation_fee_parameters",
-    "<span>proposal_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>proposal_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/ecc/src/ecdsa.js~recoverpubkey",
+    "bitsharesjs/lib/ecc/src/ecdsa.js~recoverpubkey",
     "function/index.html#static-function-recoverPubKey",
-    "<span>recoverPubKey</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/ecdsa.js</span>",
+    "<span>recoverPubKey</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/ecdsa.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~refund_worker_initializer",
+    "bitsharesjs/lib/serializer/src/operations.js~refund_worker_initializer",
     "variable/index.html#static-variable-refund_worker_initializer",
-    "<span>refund_worker_initializer</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>refund_worker_initializer</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/ecc/src/hash.js~ripemd160",
+    "bitsharesjs/lib/ecc/src/hash.js~ripemd160",
     "function/index.html#static-function-ripemd160",
-    "<span>ripemd160</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/hash.js</span>",
+    "<span>ripemd160</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/hash.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/chain/src/state.js~set",
+    "bitsharesjs/lib/chain/src/state.js~set",
     "function/index.html#static-function-set",
-    "<span>set</span> <span class=\"search-result-import-path\">eidosjs/lib/chain/src/state.js</span>",
+    "<span>set</span> <span class=\"search-result-import-path\">bitsharesjs/lib/chain/src/state.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/ecc/src/hash.js~sha256",
+    "bitsharesjs/lib/ecc/src/hash.js~sha256",
     "function/index.html#static-function-sha256",
-    "<span>sha256</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/hash.js</span>",
+    "<span>sha256</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/hash.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/ecc/src/hash.js~sha512",
+    "bitsharesjs/lib/ecc/src/hash.js~sha512",
     "function/index.html#static-function-sha512",
-    "<span>sha512</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/hash.js</span>",
+    "<span>sha512</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/hash.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/ecc/src/ecdsa.js~sign",
+    "bitsharesjs/lib/ecc/src/ecdsa.js~sign",
     "function/index.html#static-function-sign",
-    "<span>sign</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/ecdsa.js</span>",
+    "<span>sign</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/ecdsa.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~signed_block",
+    "bitsharesjs/lib/serializer/src/operations.js~signed_block",
     "variable/index.html#static-variable-signed_block",
-    "<span>signed_block</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>signed_block</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~signed_block_header",
+    "bitsharesjs/lib/serializer/src/operations.js~signed_block_header",
     "variable/index.html#static-variable-signed_block_header",
-    "<span>signed_block_header</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>signed_block_header</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~signed_transaction",
+    "bitsharesjs/lib/serializer/src/operations.js~signed_transaction",
     "variable/index.html#static-variable-signed_transaction",
-    "<span>signed_transaction</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>signed_transaction</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~stealth_confirmation",
+    "bitsharesjs/lib/serializer/src/operations.js~stealth_confirmation",
     "variable/index.html#static-variable-stealth_confirmation",
-    "<span>stealth_confirmation</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>stealth_confirmation</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~stealth_memo_data",
+    "bitsharesjs/lib/serializer/src/operations.js~stealth_memo_data",
     "variable/index.html#static-variable-stealth_memo_data",
-    "<span>stealth_memo_data</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>stealth_memo_data</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/template.js~template",
+    "bitsharesjs/lib/serializer/src/template.js~template",
     "function/index.html#static-function-template",
-    "<span>template</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/template.js</span>",
+    "<span>template</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/template.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~transaction",
+    "bitsharesjs/lib/serializer/src/operations.js~transaction",
     "variable/index.html#static-variable-transaction",
-    "<span>transaction</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>transaction</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~transfer",
+    "bitsharesjs/lib/serializer/src/operations.js~transfer",
     "variable/index.html#static-variable-transfer",
-    "<span>transfer</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>transfer</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~transfer_from_blind",
+    "bitsharesjs/lib/serializer/src/operations.js~transfer_from_blind",
     "variable/index.html#static-variable-transfer_from_blind",
-    "<span>transfer_from_blind</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>transfer_from_blind</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~transfer_from_blind_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~transfer_from_blind_operation_fee_parameters",
     "variable/index.html#static-variable-transfer_from_blind_operation_fee_parameters",
-    "<span>transfer_from_blind_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>transfer_from_blind_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~transfer_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~transfer_operation_fee_parameters",
     "variable/index.html#static-variable-transfer_operation_fee_parameters",
-    "<span>transfer_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>transfer_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~transfer_to_blind",
+    "bitsharesjs/lib/serializer/src/operations.js~transfer_to_blind",
     "variable/index.html#static-variable-transfer_to_blind",
-    "<span>transfer_to_blind</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>transfer_to_blind</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~transfer_to_blind_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~transfer_to_blind_operation_fee_parameters",
     "variable/index.html#static-variable-transfer_to_blind_operation_fee_parameters",
-    "<span>transfer_to_blind_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>transfer_to_blind_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/ecc/src/ecdsa.js~verify",
+    "bitsharesjs/lib/ecc/src/ecdsa.js~verify",
     "function/index.html#static-function-verify",
-    "<span>verify</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/ecdsa.js</span>",
+    "<span>verify</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/ecdsa.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/ecc/src/ecdsa.js~verifyraw",
+    "bitsharesjs/lib/ecc/src/ecdsa.js~verifyraw",
     "function/index.html#static-function-verifyRaw",
-    "<span>verifyRaw</span> <span class=\"search-result-import-path\">eidosjs/lib/ecc/src/ecdsa.js</span>",
+    "<span>verifyRaw</span> <span class=\"search-result-import-path\">bitsharesjs/lib/ecc/src/ecdsa.js</span>",
     "function"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~vesting_balance_create",
+    "bitsharesjs/lib/serializer/src/operations.js~vesting_balance_create",
     "variable/index.html#static-variable-vesting_balance_create",
-    "<span>vesting_balance_create</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>vesting_balance_create</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~vesting_balance_create_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~vesting_balance_create_operation_fee_parameters",
     "variable/index.html#static-variable-vesting_balance_create_operation_fee_parameters",
-    "<span>vesting_balance_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>vesting_balance_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~vesting_balance_withdraw",
+    "bitsharesjs/lib/serializer/src/operations.js~vesting_balance_withdraw",
     "variable/index.html#static-variable-vesting_balance_withdraw",
-    "<span>vesting_balance_withdraw</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>vesting_balance_withdraw</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~vesting_balance_withdraw_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~vesting_balance_withdraw_operation_fee_parameters",
     "variable/index.html#static-variable-vesting_balance_withdraw_operation_fee_parameters",
-    "<span>vesting_balance_withdraw_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>vesting_balance_withdraw_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~vesting_balance_worker_initializer",
+    "bitsharesjs/lib/serializer/src/operations.js~vesting_balance_worker_initializer",
     "variable/index.html#static-variable-vesting_balance_worker_initializer",
-    "<span>vesting_balance_worker_initializer</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>vesting_balance_worker_initializer</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~void_result",
+    "bitsharesjs/lib/serializer/src/operations.js~void_result",
     "variable/index.html#static-variable-void_result",
-    "<span>void_result</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>void_result</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~withdraw_permission_claim",
+    "bitsharesjs/lib/serializer/src/operations.js~withdraw_permission_claim",
     "variable/index.html#static-variable-withdraw_permission_claim",
-    "<span>withdraw_permission_claim</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>withdraw_permission_claim</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~withdraw_permission_claim_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~withdraw_permission_claim_operation_fee_parameters",
     "variable/index.html#static-variable-withdraw_permission_claim_operation_fee_parameters",
-    "<span>withdraw_permission_claim_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>withdraw_permission_claim_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~withdraw_permission_create",
+    "bitsharesjs/lib/serializer/src/operations.js~withdraw_permission_create",
     "variable/index.html#static-variable-withdraw_permission_create",
-    "<span>withdraw_permission_create</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>withdraw_permission_create</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~withdraw_permission_create_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~withdraw_permission_create_operation_fee_parameters",
     "variable/index.html#static-variable-withdraw_permission_create_operation_fee_parameters",
-    "<span>withdraw_permission_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>withdraw_permission_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~withdraw_permission_delete",
+    "bitsharesjs/lib/serializer/src/operations.js~withdraw_permission_delete",
     "variable/index.html#static-variable-withdraw_permission_delete",
-    "<span>withdraw_permission_delete</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>withdraw_permission_delete</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~withdraw_permission_delete_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~withdraw_permission_delete_operation_fee_parameters",
     "variable/index.html#static-variable-withdraw_permission_delete_operation_fee_parameters",
-    "<span>withdraw_permission_delete_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>withdraw_permission_delete_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~withdraw_permission_update",
+    "bitsharesjs/lib/serializer/src/operations.js~withdraw_permission_update",
     "variable/index.html#static-variable-withdraw_permission_update",
-    "<span>withdraw_permission_update</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>withdraw_permission_update</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~withdraw_permission_update_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~withdraw_permission_update_operation_fee_parameters",
     "variable/index.html#static-variable-withdraw_permission_update_operation_fee_parameters",
-    "<span>withdraw_permission_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>withdraw_permission_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~witness_create",
+    "bitsharesjs/lib/serializer/src/operations.js~witness_create",
     "variable/index.html#static-variable-witness_create",
-    "<span>witness_create</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>witness_create</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~witness_create_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~witness_create_operation_fee_parameters",
     "variable/index.html#static-variable-witness_create_operation_fee_parameters",
-    "<span>witness_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>witness_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~witness_update",
+    "bitsharesjs/lib/serializer/src/operations.js~witness_update",
     "variable/index.html#static-variable-witness_update",
-    "<span>witness_update</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>witness_update</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~witness_update_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~witness_update_operation_fee_parameters",
     "variable/index.html#static-variable-witness_update_operation_fee_parameters",
-    "<span>witness_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>witness_update_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~worker_create",
+    "bitsharesjs/lib/serializer/src/operations.js~worker_create",
     "variable/index.html#static-variable-worker_create",
-    "<span>worker_create</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>worker_create</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
-    "eidosjs/lib/serializer/src/operations.js~worker_create_operation_fee_parameters",
+    "bitsharesjs/lib/serializer/src/operations.js~worker_create_operation_fee_parameters",
     "variable/index.html#static-variable-worker_create_operation_fee_parameters",
-    "<span>worker_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">eidosjs/lib/serializer/src/operations.js</span>",
+    "<span>worker_create_operation_fee_parameters</span> <span class=\"search-result-import-path\">bitsharesjs/lib/serializer/src/operations.js</span>",
     "variable"
   ],
   [
