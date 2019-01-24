@@ -59,8 +59,8 @@ describe("ChainStore", () => {
     it("Asset by id", function() {
         return new Promise(function(resolve) {
             ChainStore.subscribe(function() {
-                if (ChainStore.getAsset("1.3.121") !== undefined) {
-                    assert(ChainStore.getAsset("1.3.121") != null);
+                if (ChainStore.getAsset("1.3.1") !== undefined) {
+                    assert(ChainStore.getAsset("1.3.1") != null);
                     resolve();
                 }
             });
