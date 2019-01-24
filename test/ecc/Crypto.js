@@ -135,20 +135,6 @@ describe("ECC", function() {
             );
         });
 
-        it("password aes_private", function() {
-            this.timeout(2500);
-            var key_checksum = min_time_elapsed(function() {
-                return key.aes_checksum("password").checksum;
-            });
-
-            var password_aes = min_time_elapsed(function() {
-                return key.aes_private("password", key_checksum);
-            });
-
-            // DEBUG console.log('... password_aes',password_aes)
-            assert(password_aes !== null);
-        });
-
         it("throws on empty brainkey", function() {
             let string = "";
 
@@ -223,35 +209,6 @@ describe("ECC", function() {
             assert.equal(16, brainKey.split(" ").length);
         });
 
-        // "many keys" works, not really needed
-        // it("many keys", function() {
-        //
-        //     this.timeout(10 * 1000)
-        //
-        //     for (var i = 0; i < 10; i++) {
-        //         let privkey1 = key.get_random_key()
-        //         let privkey2 = key.get_random_key()
-        //
-        //         let secret1 = one_time_private.get_shared_secret( privkey1.toPublicKey() )
-        //         let child1 = sha256( secret1 )
-        //
-        //         let secret2 = privkey2.get_shared_secret( privkey2.toPublicKey() )
-        //         let child2 = sha256( secret2 )
-        //
-        //         it("child from public", ()=> assert.equal(
-        //             privkey1.toPublicKey().child(child1).toString(),
-        //             privkey2.toPublicKey().child(child2).toString(),
-        //             "derive child public key"
-        //         ))
-        //
-        //         it("child from private", ()=> assert.equal(
-        //             privkey1.child(child1).toString(),
-        //             privkey2.child(child2).toString(),
-        //             "derive child private key"
-        //         ))
-        //     }
-        //
-        // })
     });
 });
 
