@@ -80,27 +80,6 @@ describe("ChainStore", () => {
         });
     });
 
-    it("Objects by vote id", function() {
-        const voteIds = ["1:26", "0:82"];
-        let interval;
-        return new Promise(function(resolve) {
-            interval = setInterval(function() {
-                let objects = ChainStore.getObjectsByVoteIds(voteIds);
-                if (objects.length && !!objects[0]) {
-                    assert(objects.length === voteIds.length);
-                    assert(!!objects[0]);
-                    assert(!!objects[1]);
-                    clearInterval(interval);
-                    resolve();
-                }
-            }, 50);
-            let objects = ChainStore.getObjectsByVoteIds(voteIds);
-            assert(objects.length === voteIds.length);
-            assert(objects[0] === null);
-            assert(objects[1] === null);
-        });
-    });
-
     it("Account by id", function() {
         return new Promise(function(resolve) {
             ChainStore.subscribe(function() {
@@ -151,21 +130,6 @@ describe("ChainStore", () => {
             });
             assert(
                 ChainStore.getAccount("dalkzjdalzjfaozijroazinf") === undefined
-            );
-        });
-    });
-
-    it("Non-existant account fetched by id returns null", function() {
-        return new Promise(function(resolve) {
-            ChainStore.subscribe(function() {
-                let account = ChainStore.getAccount("1.2.98798798798798");
-                if (account !== undefined) {
-                    assert(account === null);
-                    resolve();
-                }
-            });
-            assert(
-                ChainStore.getAccount("1.2.98798798798798798") === undefined
             );
         });
     });
