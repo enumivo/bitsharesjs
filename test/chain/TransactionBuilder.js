@@ -106,7 +106,7 @@ describe("TransactionBuilder", () => {
             tr.add_type_operation("transfer", {
                 fee: {
                     amount: 0,
-                    asset_id: "1.3.1" // The fee pool of this asset must be empty or insufficient
+                    asset_id: "1.3.2" // The fee pool of this asset must be empty or insufficient
                 },
                 from: "1.2.1",
                 to: "1.2.2",
