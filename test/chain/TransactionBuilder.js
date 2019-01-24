@@ -136,7 +136,7 @@ describe("TransactionBuilder", () => {
             tr.add_type_operation("transfer", {
                 fee: {
                     amount: 0,
-                    asset_id: "1.3.121"
+                    asset_id: "1.3.1"
                 },
                 from: "1.2.1",
                 to: "1.2.2",
@@ -152,7 +152,7 @@ describe("TransactionBuilder", () => {
             tr.add_type_operation("transfer", {
                 fee: {
                     amount: 0,
-                    asset_id: "1.3.113"
+                    asset_id: "1.3.1"
                 },
                 from: "1.2.1",
                 to: "1.2.2",
@@ -168,7 +168,7 @@ describe("TransactionBuilder", () => {
             tr.add_type_operation("transfer", {
                 fee: {
                     amount: 0,
-                    asset_id: "1.3.113"
+                    asset_id: "1.3.1"
                 },
                 from: "1.2.1",
                 to: "1.2.2",
@@ -184,7 +184,7 @@ describe("TransactionBuilder", () => {
             tr.add_type_operation("transfer", {
                 fee: {
                     amount: 0,
-                    asset_id: "1.3.125" // The fee pool of this asset must be empty or insufficient
+                    asset_id: "1.3.2" // The fee pool of this asset must be empty or insufficient
                 },
                 from: "1.2.1",
                 to: "1.2.2",
@@ -200,7 +200,7 @@ describe("TransactionBuilder", () => {
             tr.add_type_operation("account_upgrade", {
                 fee: {
                     amount: 0,
-                    asset_id: "1.3.121"
+                    asset_id: "1.3.1"
                 },
                 account_to_upgrade: "1.2.1",
                 upgrade_to_lifetime_member: true
@@ -209,11 +209,11 @@ describe("TransactionBuilder", () => {
             tr
                 .set_required_fees()
                 .then(() => {
-                    assert.equal(tr.operations[0][1].fee.asset_id, "1.3.121");
-                    assert.equal(tr.operations[1][1].fee.asset_id, "1.3.113");
-                    assert.equal(tr.operations[2][1].fee.asset_id, "1.3.113");
+                    assert.equal(tr.operations[0][1].fee.asset_id, "1.3.1");
+                    assert.equal(tr.operations[1][1].fee.asset_id, "1.3.1");
+                    assert.equal(tr.operations[2][1].fee.asset_id, "1.3.1");
                     assert.equal(tr.operations[3][1].fee.asset_id, "1.3.0");
-                    assert.equal(tr.operations[4][1].fee.asset_id, "1.3.121");
+                    assert.equal(tr.operations[4][1].fee.asset_id, "1.3.1");
                     assert(
                         tr.operations[4][1].fee.amount >
                             tr.operations[0][1].fee.amount
