@@ -76,7 +76,7 @@ describe("TransactionBuilder", () => {
             tr.add_type_operation("transfer", {
                 fee: {
                     amount: 0,
-                    asset_id: "1.3.121"
+                    asset_id: "1.3.1"
                 },
                 from: "1.2.1",
                 to: "1.2.2",
@@ -92,7 +92,7 @@ describe("TransactionBuilder", () => {
             tr
                 .set_required_fees()
                 .then(() => {
-                    assert.equal(tr.operations[0][1].fee.asset_id, "1.3.121");
+                    assert.equal(tr.operations[0][1].fee.asset_id, "1.3.1");
                     assert(tr.operations[0][1].fee.amount > 0);
                     resolve();
                 })
