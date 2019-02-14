@@ -6,7 +6,7 @@ describe("TransactionBuilder", () => {
     // Connect once for all tests
     before(function() {
         return new Promise(function(resolve, reject) {
-            Apis.instance("ws://dex.eidos.one:11011", true)
+            Apis.instance("wss://dex.eidos.one", true)
                 .init_promise.then(resolve)
                 .catch(reject);
         });
